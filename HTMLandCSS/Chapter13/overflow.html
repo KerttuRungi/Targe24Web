@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-size: 90%;
+            line-height: 1.2em;
+            width: 200px;
+        }
+        h2 {
+            color: aqua;
+            border-bottom: 1px solid #0088dd;
+        }
+        p {
+            min-height: 10px;
+            max-height: 85px;
+        }
+        p.one {
+            overflow: hidden;
+        }
+        p.two {
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <h2>Rhodes piano</h2>
+    <p class="one">The rhodes piano is an electronical piano, Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta amet iste aut est facere distinctio placeat quae quidem non, aspernatur quas molestiae sed! A laborum nobis illum, similique iste alias!</p>
+
+    <h2>Rhodes piano</h2>
+    <p class="one">The rhodes piano is an electronical piano, Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sapiente corporis. Rem placeat itaque necessitatibus ea qui perferendis ipsa quaerat, laborum eaque! Aspernatur aut a laboriosam ex perferendis! Nisi, consequuntur.</p>
+
+</body>
+</html>
