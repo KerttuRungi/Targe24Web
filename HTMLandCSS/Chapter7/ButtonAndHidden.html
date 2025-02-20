@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button and hidden Controlls</title>
+</head>
+<body>
+    <form action="http://www.example.com/add.php"></form>
+    <button><img src="pildid/add.gif" alt="add" width="10" height="10">Add</button>
+    <input type="hidden" name="bookmark" id="lyrics">
+    <form>
+    <hr>
+    <h1>Chcekbox</h1>
+    <form action="http://www.example.com.php"></form>
+    <p>Please select your favorite music services
+        <br>
+        <input type="checkbox" name="services" id="itunes" checked="checked"> ITunes
+        <input type="checkbox" name="services" id="LastFM" checked="checked"> Last FM
+        <input type="checkbox" name="services" id="Spotify" checked="checked"> Spotify
+    </p>
+    <form>
+    <hr>
+    <h1>Date and Email Input</h1>
+    <form action="http://www.excamples.com/bookigs/" method="post">
+        <label for="username">Debarture date:</label>
+        <input type="date" name="debart">
+        <input type="submit" name="submit">
+    </form>
+    <form action="http://www.excamples.com/bookigs/" method="post">
+        <p> Please enter your email:</p>
+        <input type="email" name="email">
+        <input type="submit" name="submit">
+    </form>
+    <hr>
+    <h1>Dropdown list</h1>
+    <form action="http://ww.excample.com/profile.php"></form>
+    <p>What device do you listen on?</p>
+        <option value="ipod">ipod</option>
+        <option value="radio">radio</option>
+        <option value="computer">computer</option>
+    <select>
+</form>
+<hr>
+<h1>File Input Box</h1>
+<form action="http://ww.excample.com/upload.php">
+    <p>Upload you song</p>
+    <input type="file" name="user song">
+    <br>
+    <br>
+    <input type="submit" value="upload">
+</form>
+<form action="http://www.excample.com/subscribe.php">
+    <fieldset>
+        <legend>Contact details</legend>
+        <lable>Email:<br><input type="text" name="email"></lable><br>
+    </fieldset>
+
+
+</form>
+<hr>
+<h1>Image Button</h1>
+<form action="http://www.excample.com/subscribe.php">
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email">
+    <input type="image" src="pildid/subscribe.jpg" width="100" height="20">
+</form>
+<hr>
+<h1>Labeling Form Controls</h1>
+<form action="http://www.excample.com/subscribe.php">
+    <label>Age <input type="text" name="age"></label>
+    <br>
+    Gender:
+    <input id="female" type="radio" name="gender" value="f">
+    <label for="female">Female</label>
+   <input id="male" type="radio" name="gender" value="m">
+   <label for="male">Male</label>
+</form>
+<hr>
+<h1>Multi Select box</h1>
+<form>
+    <p>Do you play any of the following instruments</p>
+    <select name="instrument" size="3" multiple="multible">
+        <option value="guitar" selected="selected">Guitar</option>
+        <option value="drums">Drums</option>
+        <option value="keyboard" selected="selected">Keyboard</option>
+        <option value="bass">Bass</option>
+    </select>
+</form>
+<hr>
+<h1>Password Input</h1>
+<form action="http://www.excample.com/login.php">
+    <p>Username:
+        <input type="text" name="username" size="15" maxlength="10">
+    </p>
+    <p>Password:
+        <input type="password" name="password" size="15" maxlength="30">
+    </p>
+</form>
+<hr>
+<h1>Textarea</h1>
+<form>
+    <p>What did you think of this gig?</p>
+    <textarea name="comments" cols="40" rows="4">Enter your comment</textarea>
+</form>
+
+</body>
+</html>
